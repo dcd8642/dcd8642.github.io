@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Raccoon Den</title>
+         <style>
+            body {
+                background: rgb(0, 0, 0);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: #00FFFF;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border: 30px;
+                border-radius: 30px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: #00FFFF;
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+                height: 100px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header>Raccon Den</header>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="sidebar">
+                    <img src="https://img-aws.ehowcdn.com/350x235p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/db3c2f6660904b6784d4a41dd3ec34f0.jpg">
+                </div>
+                <div class="content">
+                    <header>Alpha Raccon Aka: DeAndre</header>
+                    <p>Student at south plaq high</p>
+                    <section class="interests">
+                        <header>interests</header>
+                        <ul>
+                            <li>Youtube</li>
+                            <li>Comedy</li>
+                            <li>Lighting the fuse hahaha borderlands</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
