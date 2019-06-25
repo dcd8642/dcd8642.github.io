@@ -67,6 +67,14 @@
                 font-size: 1.25em;
             }
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               $("button").click(function(){
+                  $("ul.professional-interests").fadeToggle();
+              });
+            });
+        </script>
     </head>
     <body>
         <div id="all-contents">
@@ -92,6 +100,19 @@
                             <li>Lighting the fuse hahaha borderlands</li>
                         </ul>
                     </section>
+                </div>
+            </main>
+            <main>
+                <div class = "content">
+                <header>Professional Stuff</header>
+                <section class="interests">
+                <button>Click to enter the professional den</button>
+                <ul class="professional-interests">
+                <li>Web Development</li>
+                <li>Comedy</li>
+                <li>Games</li>
+                </ul>
+                </section>
                 </div>
             </main>
         </div>
